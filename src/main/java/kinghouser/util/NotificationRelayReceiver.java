@@ -1,13 +1,15 @@
 package kinghouser.util;
 
 import java.io.*;
-import java.net.Socket;
+import java.net.*;
 
 public class NotificationRelayReceiver {
 
     public static void setup() {
         try {
-            Socket socket = new Socket("192.168.1.77", 5000);
+            Socket socket = new Socket();
+            SocketAddress socketAddress = new InetSocketAddress("172.17.5.147", 43213);
+            socket.connect(socketAddress, (5 * 1000));
             System.out.println("Connected to server");
 
             Runtime.getRuntime().addShutdownHook(new Thread(() -> {
