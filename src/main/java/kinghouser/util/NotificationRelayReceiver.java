@@ -7,9 +7,7 @@ public class NotificationRelayReceiver {
 
     public static void setup() {
         try {
-            Socket socket = new Socket();
-            SocketAddress socketAddress = new InetSocketAddress("172.17.5.147", 43213);
-            socket.connect(socketAddress, (5 * 1000));
+            Socket socket = new Socket("192.168.43.1", 44985);
             System.out.println("Connected to server");
 
             Runtime.getRuntime().addShutdownHook(new Thread(() -> {
@@ -24,6 +22,7 @@ public class NotificationRelayReceiver {
             ObjectInputStream objectInputStream = new ObjectInputStream(inputStream);
 
             while (objectInputStream.readObject() != null) {
+                System.out.println("Received object...");
                 ((Notification) objectInputStream.readObject()).show();
             }
         } catch (Exception e) {
