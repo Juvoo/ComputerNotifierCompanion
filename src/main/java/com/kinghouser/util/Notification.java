@@ -1,9 +1,10 @@
-package kinghouser.util;
+package com.kinghouser.util;
 
 import java.io.IOException;
+import java.io.Serializable;
 
 
-public class Notification {
+public class Notification implements Serializable {
 
     private String title;
     private String content;
@@ -31,7 +32,7 @@ public class Notification {
 
     public void show() {
         try {
-            Runtime.getRuntime().exec(new String[] { "osascript", "-e", "display notification " + content + " with title " + title });
+            Runtime.getRuntime().exec(new String[] { "osascript", "-e", "display notification \"" + content + "\" with title \"" + title + "\""});
         } catch (IOException ignored) {}
     }
 }

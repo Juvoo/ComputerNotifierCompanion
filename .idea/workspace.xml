@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfe51ed4-9b2f-4d08-949f-44e09a82c3db" name="Changes" comment="Commit">
+    <list default="true" id="dfe51ed4-9b2f-4d08-949f-44e09a82c3db" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kinghouser/util/NotificationReceiver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kinghouser/util/NotificationRelayReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kinghouser/util/NotificationRelayReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kinghouser/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kinghouser/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kinghouser/util/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kinghouser/util/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kinghouser/util/NotificationRelayReceiver.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +50,11 @@
 }</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kinghouser.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.kinghouser.Main" />
       <module name="ComputerNotifierCompanion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kinghouser.*" />
+          <option name="PATTERN" value="com.kinghouser.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,6 +81,9 @@
       <workItem from="1668117407251" duration="9395000" />
       <workItem from="1668178632848" duration="3725000" />
       <workItem from="1668196085117" duration="3308000" />
+      <workItem from="1668272236269" duration="3508000" />
+      <workItem from="1668280358100" duration="7143000" />
+      <workItem from="1668295485678" duration="4302000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1668114107528</created>
@@ -112,5 +120,15 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.EOFException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
