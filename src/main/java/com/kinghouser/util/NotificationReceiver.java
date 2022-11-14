@@ -12,7 +12,7 @@ public class NotificationReceiver implements Runnable {
 
     public static void setup() {
         try {
-            clientSocket = new Socket("192.168.1.64", 38307);
+            clientSocket = new Socket("192.168.232.2", 36832);
             System.out.println("Connected to server");
 
             objectOutputStream = new ObjectOutputStream(clientSocket.getOutputStream());
