@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dfe51ed4-9b2f-4d08-949f-44e09a82c3db" name="Changes" comment="Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kinghouser/util/NotificationReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kinghouser/util/NotificationReceiver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +78,8 @@
       <workItem from="1668272236269" duration="3508000" />
       <workItem from="1668280358100" duration="7143000" />
       <workItem from="1668295485678" duration="4302000" />
+      <workItem from="1668459509433" duration="13000" />
+      <workItem from="1668522773235" duration="697000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1668114107528</created>
@@ -94,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668197171499</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit">
+      <created>1668459512891</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668459512891</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
